@@ -7,3 +7,5 @@ int main(){
     cout<<(a^b)<<endl;
     return 0;
 }
+
+// solved this at leetcode

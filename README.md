@@ -63,3 +63,12 @@ GitHub: https://github.com/Indian24
 ---
 
 ⭐ If you find this repository helpful, feel free to star it!
+
+
+
+---
+
+## 📅 Daily Progress Log
+- Day 1: Setup repository and solved initial DSA problems
+- Day 2: Continued DSA practice and improved understanding ✅
+
