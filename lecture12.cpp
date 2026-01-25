@@ -2,7 +2,7 @@
 using namespace std
 
 int main {
-
-    // day works ///fine ,,,,, 
+    cout << "Hello, World!" << endl;
+    return 0; 
     
 }
