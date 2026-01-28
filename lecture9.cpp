@@ -1,3 +1,7 @@
+// #day 18 update
+
+
+// vector are better from of array in c++
 #include <iostream>
 using namespace std;
 
