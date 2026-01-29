@@ -37,42 +37,71 @@
 
 
 
-//   brutforce apporch
+// //   brutforce apporch
 
 
-#include <iostream>     // For input-output
-#include <climits>      // For INT_MIN
-#include <algorithm>    // For max()
-using namespace std;
+// #include <iostream>     // For input-output
+// #include <climits>      // For INT_MIN
+// #include <algorithm>    // For max()
+// using namespace std;
 
-int main() {
+// int main() {
 
-    int n = 7;   // Size of the array
+//     int n = 7;   // Size of the array
 
-    // Array declaration with positive and negative numbers
-    int arr[7] = {3, -4, 5, 4, -1, 7, -8};
+//     // Array declaration with positive and negative numbers
+//     int arr[7] = {3, -4, 5, 4, -1, 7, -8};
 
-    // Initialize maxSum with the smallest possible integer value
-    int maxSum = INT_MIN;
+//     // Initialize maxSum with the smallest possible integer value
+//     int maxSum = INT_MIN;
 
-    // Outer loop: starting index of subarray
-    for (int st = 0; st < n; st++) {
+//     // Outer loop: starting index of subarray
+//     for (int st = 0; st < n; st++) {
 
-        int currSum = 0;  // Current subarray sum starting from index 'st'
+//         int currSum = 0;  // Current subarray sum starting from index 'st'
 
-        // Inner loop: ending index of subarray
-        for (int end = st; end < n; end++) {
+//         // Inner loop: ending index of subarray
+//         for (int end = st; end < n; end++) {
 
-            // Add current element to subarray sum
-            currSum += arr[end];
+//             // Add current element to subarray sum
+//             currSum += arr[end];
 
-            // Update maximum subarray sum if current sum is greater
-            maxSum = max(currSum, maxSum);
-        }
-    }
+//             // Update maximum subarray sum if current sum is greater
+//             maxSum = max(currSum, maxSum);
+//         }
+//     }
 
-    // Print the maximum subarray sum
-    cout << "Max subarray sum = " << maxSum << endl;
+//     // Print the maximum subarray sum
+//     cout << "Max subarray sum = " << maxSum << endl;
 
-    return 0;   // Program ends successfully
-}
+//     return 0;   // Program ends successfully
+// }
+
+
+
+
+// subaary , is continous part of array 
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// kadane's algorithm
+
+
