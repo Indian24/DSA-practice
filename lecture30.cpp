@@ -166,6 +166,8 @@ int main() {
         // Read the substring to remove
         getline(cin, part);   
 
+        //
+
         // Call function and print result
         cout << removeOccurrences(s, part) << endl;
     }
