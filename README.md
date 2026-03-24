@@ -18,6 +18,7 @@ I am consistently solving problems to strengthen my problem-solving skills and b
 DSA-Practice/
 │── lecture7.cpp
 │── lecture8.cpp
+|--- lecture 10 array
 │── README.md
 │── .gitignore
 ```
