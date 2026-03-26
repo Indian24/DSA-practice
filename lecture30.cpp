@@ -174,3 +174,124 @@ int main() {
 
     return 0;   // program ends successfully
 }
+
+
+
+Task: Efficient Object Detection + Robustness Analysis
+Problem Statement
+
+Train and optimize an object detection model on a small dataset (COCO subset / Pascal VOC / custom dataset with minimum 3 classes).
+
+🔹 Part 1 — Model Training (Core Skill Test)
+
+Train a pretrained object detection model (YOLO / Faster R-CNN).
+
+Use transfer learning.
+
+Report:
+
+mAP@0.5
+
+Precision
+
+Recall
+
+Explain in 5–6 lines:
+
+Why you chose this architecture
+
+Which backbone you used
+
+🔹 Part 2 — Overfitting Check (Deep Thinking)
+
+Dataset size is small.
+
+Show training vs validation loss curve.
+
+Explain:
+
+Did overfitting occur?
+
+What steps did you take to reduce it?
+
+(Example: augmentation, freezing layers, weight decay, etc.)
+
+🔹 Part 3 — Latency Optimization (Real-World Skill)
+
+Reduce inference time by at least 20%.
+
+Show:
+
+FPS before optimization
+
+FPS after optimization
+
+Accuracy difference
+
+Methods allowed:
+
+Smaller input size
+
+Lightweight backbone
+
+Quantization
+
+🔹 Part 4 — Failure Analysis (Most Important)
+
+Show 5 incorrect predictions.
+
+Explain:
+
+Why model failed
+
+Whether it’s data issue or model issue
+
+How you would fix it
+
+This tests real understanding.
+
+📂 Submission Format
+
+GitHub repository
+
+README (clear setup steps)
+
+Metrics + comparison table
+
+Sample output images
+
+Short explanation (max 2 pages PDF)
+
+⏳ Deadline
+
+24 Hours from assignment release
+
+Late submission → Not evaluated.
+
+🎯 Why This Assignment Is Strong
+
+It tests:
+
+Practical training
+
+Optimization thinking
+
+Overfitting understanding
+
+Debugging ability
+
+Real-world reasoning
+
+If you want, I can now provide:
+
+🔥 Evaluation rubric (100 marks)
+
+🔥 Email template to send candidate
+
+🔥 Harder version for 6-month intern
+
+🔥 Research-level 24-hour challenge
+
+Tell me candidate level (3-month intern or 6-month intern).
+
+vanshtripathi108@gmail.com
